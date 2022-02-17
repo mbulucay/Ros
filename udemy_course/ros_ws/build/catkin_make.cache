@@ -1,0 +1,2 @@
+auto_turtle:freq_pack_p:package_1_p:topic_basic_p
+-DCATKIN_DEVEL_PREFIX=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/install -G Unix Makefiles

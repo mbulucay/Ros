@@ -1,0 +1,8 @@
+prefix=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel
+
+Name: auto_turtle
+Description: Description of auto_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
