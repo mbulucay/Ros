@@ -13,8 +13,6 @@ geometry_msgs/Twist.h
 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/auto_turtle/src/geometry_msgs/Twist.h
 turtlesim/Pose.h
 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/auto_turtle/src/turtlesim/Pose.h
-random
--
 
 /opt/ros/noetic/include/geometry_msgs/Twist.h
 string

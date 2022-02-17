@@ -1,2 +1,22 @@
 # Hashes of file build rules.
+041168309b63e3ec01871708bce3ac09 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/include/msgsrv_basic_p/RobotStatus.h
+a2f1b73482712352a35dc9f2394261cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/include/msgsrv_basic_p/WarningStatus.h
+886ee3c8ade263a7f15f5fcd25f88c28 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/lib/python3/dist-packages/msgsrv_basic_p/msg/_RobotStatus.py
+8b41305ca9e59612c1af329c325bdee5 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/lib/python3/dist-packages/msgsrv_basic_p/msg/__init__.py
+7336bc234869d5484b1afda7e764988c /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/lib/python3/dist-packages/msgsrv_basic_p/srv/_WarningStatus.py
+06e4d68e50762508e11e23774ee3d709 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/lib/python3/dist-packages/msgsrv_basic_p/srv/__init__.py
+9ec0fb0237a7893bdc0299267e77445a /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/common-lisp/ros/msgsrv_basic_p/msg/RobotStatus.lisp
+2264a435b97c620dd5c7b98eac9d59aa /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/common-lisp/ros/msgsrv_basic_p/srv/WarningStatus.lisp
+91b0ed00fa397e65f11dd045baaf2ff8 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/gennodejs/ros/msgsrv_basic_p/msg/RobotStatus.js
+42a9903434856e0edd64b4e23fb899a4 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/gennodejs/ros/msgsrv_basic_p/srv/WarningStatus.js
+66a9b1313cb2c87438bfe4b578c5346b /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/roseus/ros/msgsrv_basic_p/manifest.l
+17b8bfb41278a67c0fc24386b92c8981 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/roseus/ros/msgsrv_basic_p/msg/RobotStatus.l
+9c7e15a52363bce8388e2840c208bd42 /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/roseus/ros/msgsrv_basic_p/srv/WarningStatus.l
 547d8a473f6150d0d4845212c8c06577 CMakeFiles/clean_test_results
+42f6a4209f7cb097cf0379003a7b77f4 msgsrv_basic_p/CMakeFiles/_msgsrv_basic_p_generate_messages_check_deps_RobotStatus
+045f0e88e4e8e21fb8f27638f38fc171 msgsrv_basic_p/CMakeFiles/_msgsrv_basic_p_generate_messages_check_deps_WarningStatus
+da4bae01aefa8f51022fa72990fd6ef6 msgsrv_basic_p/CMakeFiles/msgsrv_basic_p_generate_messages_cpp
+da4bae01aefa8f51022fa72990fd6ef6 msgsrv_basic_p/CMakeFiles/msgsrv_basic_p_generate_messages_eus
+da4bae01aefa8f51022fa72990fd6ef6 msgsrv_basic_p/CMakeFiles/msgsrv_basic_p_generate_messages_lisp
+da4bae01aefa8f51022fa72990fd6ef6 msgsrv_basic_p/CMakeFiles/msgsrv_basic_p_generate_messages_nodejs
+da4bae01aefa8f51022fa72990fd6ef6 msgsrv_basic_p/CMakeFiles/msgsrv_basic_p_generate_messages_py

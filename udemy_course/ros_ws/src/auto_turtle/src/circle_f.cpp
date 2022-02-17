@@ -1,7 +1,6 @@
 #include "ros/ros.h"
 #include "geometry_msgs/Twist.h"
 #include "turtlesim/Pose.h"
-#include <random>
 
 bool is_outside;
 
@@ -22,15 +21,9 @@ int main(int argc, char** argv){
     geometry_msgs::Twist vel_v;
     vel_v.linear.x = 1;
 
-    std::default_random_engine generator;
-    std::uniform_real_distribution<double> distribution(-1,1);
-
     while(ros::ok()){
 
         if(is_outside){
-            // vel_v.linear.x = 0;
-            // vel_v.angular.z = distribution(generator);
-            // vel_v.linear.x = 1;
             vel_v.angular.z = 0.7;
         }else{
             vel_v.angular.z = 0;

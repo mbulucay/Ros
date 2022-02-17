@@ -397,6 +397,24 @@ freq_pack_p_BINARY_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/bui
 //Value Computed by CMake
 freq_pack_p_SOURCE_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/freq_pack_p
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/noetic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/noetic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/noetic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
@@ -449,8 +467,29 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for msgsrv_basic_p/.
+msgsrv_basic_p/_DIR:PATH=msgsrv_basic_p/_DIR-NOTFOUND
+
+//Value Computed by CMake
+msgsrv_basic_p_BINARY_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/msgsrv_basic_p
+
+//The directory containing a CMake configuration file for msgsrv_basic_p.
+msgsrv_basic_p_DIR:PATH=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/share/msgsrv_basic_p/cmake
+
+//Value Computed by CMake
+msgsrv_basic_p_SOURCE_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/msgsrv_basic_p
+
+//Value Computed by CMake
+my_robot_p_BINARY_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/my_robot_p
+
+//Value Computed by CMake
+my_robot_p_SOURCE_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/my_robot_p
 
 //Value Computed by CMake
 package_1_p_BINARY_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/package_1_p
@@ -478,6 +517,12 @@ rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
+
+//Value Computed by CMake
+service_basic_BINARY_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/service_basic
+
+//Value Computed by CMake
+service_basic_SOURCE_DIR:STATIC=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/src/service_basic
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
@@ -645,7 +690,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
