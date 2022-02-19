@@ -185,7 +185,7 @@ foreach(t ${my_robot_p_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "msgsrv_basic_p/;roscpp;rospy")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -135,6 +123,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/CMakeFiles /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/my_robot_p/CMakeFiles/progress.marks
@@ -167,19 +167,157 @@ depend:
 	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+my_robot_p/CMakeFiles/sub_client_e.dir/rule:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_p/CMakeFiles/sub_client_e.dir/rule
+.PHONY : my_robot_p/CMakeFiles/sub_client_e.dir/rule
+
+# Convenience name for target.
+sub_client_e: my_robot_p/CMakeFiles/sub_client_e.dir/rule
+
+.PHONY : sub_client_e
+
+# fast build rule for target.
+sub_client_e/fast:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/sub_client_e.dir/build.make my_robot_p/CMakeFiles/sub_client_e.dir/build
+.PHONY : sub_client_e/fast
+
+# Convenience name for target.
+my_robot_p/CMakeFiles/server_e.dir/rule:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_p/CMakeFiles/server_e.dir/rule
+.PHONY : my_robot_p/CMakeFiles/server_e.dir/rule
+
+# Convenience name for target.
+server_e: my_robot_p/CMakeFiles/server_e.dir/rule
+
+.PHONY : server_e
+
+# fast build rule for target.
+server_e/fast:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/server_e.dir/build.make my_robot_p/CMakeFiles/server_e.dir/build
+.PHONY : server_e/fast
+
+# Convenience name for target.
+my_robot_p/CMakeFiles/pub_status_e.dir/rule:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_p/CMakeFiles/pub_status_e.dir/rule
+.PHONY : my_robot_p/CMakeFiles/pub_status_e.dir/rule
+
+# Convenience name for target.
+pub_status_e: my_robot_p/CMakeFiles/pub_status_e.dir/rule
+
+.PHONY : pub_status_e
+
+# fast build rule for target.
+pub_status_e/fast:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/pub_status_e.dir/build.make my_robot_p/CMakeFiles/pub_status_e.dir/build
+.PHONY : pub_status_e/fast
+
+src/pub_status.o: src/pub_status.cpp.o
+
+.PHONY : src/pub_status.o
+
+# target to build an object file
+src/pub_status.cpp.o:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/pub_status_e.dir/build.make my_robot_p/CMakeFiles/pub_status_e.dir/src/pub_status.cpp.o
+.PHONY : src/pub_status.cpp.o
+
+src/pub_status.i: src/pub_status.cpp.i
+
+.PHONY : src/pub_status.i
+
+# target to preprocess a source file
+src/pub_status.cpp.i:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/pub_status_e.dir/build.make my_robot_p/CMakeFiles/pub_status_e.dir/src/pub_status.cpp.i
+.PHONY : src/pub_status.cpp.i
+
+src/pub_status.s: src/pub_status.cpp.s
+
+.PHONY : src/pub_status.s
+
+# target to generate assembly for a file
+src/pub_status.cpp.s:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/pub_status_e.dir/build.make my_robot_p/CMakeFiles/pub_status_e.dir/src/pub_status.cpp.s
+.PHONY : src/pub_status.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/server_e.dir/build.make my_robot_p/CMakeFiles/server_e.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/server_e.dir/build.make my_robot_p/CMakeFiles/server_e.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/server_e.dir/build.make my_robot_p/CMakeFiles/server_e.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
+
+src/sub_client.o: src/sub_client.cpp.o
+
+.PHONY : src/sub_client.o
+
+# target to build an object file
+src/sub_client.cpp.o:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/sub_client_e.dir/build.make my_robot_p/CMakeFiles/sub_client_e.dir/src/sub_client.cpp.o
+.PHONY : src/sub_client.cpp.o
+
+src/sub_client.i: src/sub_client.cpp.i
+
+.PHONY : src/sub_client.i
+
+# target to preprocess a source file
+src/sub_client.cpp.i:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/sub_client_e.dir/build.make my_robot_p/CMakeFiles/sub_client_e.dir/src/sub_client.cpp.i
+.PHONY : src/sub_client.cpp.i
+
+src/sub_client.s: src/sub_client.cpp.s
+
+.PHONY : src/sub_client.s
+
+# target to generate assembly for a file
+src/sub_client.cpp.s:
+	cd /home/mbulucay/Desktop/ros/udemy_course/ros_ws/build && $(MAKE) -f my_robot_p/CMakeFiles/sub_client_e.dir/build.make my_robot_p/CMakeFiles/sub_client_e.dir/src/sub_client.cpp.s
+.PHONY : src/sub_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... sub_client_e"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... server_e"
+	@echo "... install/strip"
+	@echo "... pub_status_e"
+	@echo "... src/pub_status.o"
+	@echo "... src/pub_status.i"
+	@echo "... src/pub_status.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
+	@echo "... src/sub_client.o"
+	@echo "... src/sub_client.i"
+	@echo "... src/sub_client.s"
 .PHONY : help
 
 

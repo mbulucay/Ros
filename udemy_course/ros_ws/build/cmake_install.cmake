@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/gtest/cmake_install.cmake")
   include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/package_1_p/cmake_install.cmake")
+  include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/move_ship/cmake_install.cmake")
   include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/msgsrv_basic_p/cmake_install.cmake")
   include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/freq_pack_p/cmake_install.cmake")
   include("/home/mbulucay/Desktop/ros/udemy_course/ros_ws/build/my_robot_p/cmake_install.cmake")

@@ -16,6 +16,6 @@ int main(int argc, char **argv){
         ROS_INFO_STREAM(topic_1.data);
         Hz.sleep();
     }
-    return 0;
 
+    return 0;
 }

@@ -1,0 +1,8 @@
+prefix=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel
+
+Name: move_ship
+Description: Description of move_ship
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
