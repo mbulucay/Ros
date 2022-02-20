@@ -1,0 +1,8 @@
+<launch>
+
+	<remap from = "top_new_1" to = "top_name_1"/>
+
+	<node name = "pub_n" pkg = "topic_basic_p" type = "pub_fe.py" output = "screen" />
+	<node name = "sub_c_n" pkg = "topic_basic_p" type = "sub_e" output = "screen" />
+
+</launch>
