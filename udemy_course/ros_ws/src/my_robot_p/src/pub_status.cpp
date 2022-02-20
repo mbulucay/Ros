@@ -60,13 +60,13 @@ int main(int argc, char** argv){
         RStatus.motor4_rpm = std::stoi(word);
 
         getline(str, word, ',');
-        RStatus.location.x = stof(word);
+        RStatus.location.x = stoi(word);
 
         getline(str, word, ',');
-        RStatus.location.y = stof(word);
+        RStatus.location.y = stoi(word);
 
         getline(str, word, ',');
-        RStatus.location.z = stof(word);
+        RStatus.location.z = stoi(word);
 
         _publisher.publish(RStatus);
 
