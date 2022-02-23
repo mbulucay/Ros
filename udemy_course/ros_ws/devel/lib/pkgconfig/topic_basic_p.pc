@@ -1,8 +1,0 @@
-prefix=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel
-
-Name: topic_basic_p
-Description: Description of topic_basic_p
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
