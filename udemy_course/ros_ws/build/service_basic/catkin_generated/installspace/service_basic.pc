@@ -1,8 +1,0 @@
-prefix=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/install
-
-Name: service_basic
-Description: Description of service_basic
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

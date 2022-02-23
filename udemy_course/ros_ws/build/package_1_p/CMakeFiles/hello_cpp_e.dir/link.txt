@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/hello_cpp_e.dir/src/hello_f.cpp.o  -o /home/mbulucay/Desktop/ros/udemy_course/ros_ws/devel/lib/package_1_p/hello_cpp_e 

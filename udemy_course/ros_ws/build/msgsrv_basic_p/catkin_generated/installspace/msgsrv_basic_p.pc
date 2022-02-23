@@ -1,8 +1,0 @@
-prefix=/home/mbulucay/Desktop/ros/udemy_course/ros_ws/install
-
-Name: msgsrv_basic_p
-Description: Description of msgsrv_basic_p
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
